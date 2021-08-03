@@ -1,36 +1,37 @@
-*,
-*::after,
-*::before {
-   box-sizing: content-box;
-}
+ *,
+ *::after,
+ *::before {
+    box-sizing: content-box;
+ }
 
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-   margin: 0;
-   padding: 0;
-}
+ body,
+ h1,
+ h2,
+ h3,
+ p,
+ ul,
+ li {
+    margin: 0;
+    padding: 0;
+ }
 
-.container {
-   width: 70%;
-   background-color: red;
-}
+ .container {
 
-.container::after {
-   content: '';
-   display: block;
-   padding-bottom: 56.25%;
-}
+    width: 70%;
+    background-color: red;
+ }
 
-.img {
-   width: 70%;
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-}
+ .container::after {
+    content: '';
+    display: block;
+    padding-bottom: 56.25%;
+ }
+
+ .img {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+ }
