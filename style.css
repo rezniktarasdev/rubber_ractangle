@@ -16,9 +16,11 @@
  }
 
  .container {
-
     width: 70%;
     background-color: red;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
  }
 
  .container::after {
@@ -28,10 +30,9 @@
  }
 
  .img {
-    width: 70%;
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
+    max-width: 100%;
  }
